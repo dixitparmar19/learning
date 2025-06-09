@@ -1,0 +1,38 @@
+$ oe-selftest -r kernel_module_split.KernelSplitAutoloadTest.test_split_modules_enabled    2025-06-09 12:52:09,524 - oe-selftest - INFO - Adding layer libraries:
+2025-06-09 12:52:09,525 - oe-selftest - INFO -  /data/home/diparmar/workspace/test/yocto-contri/poky/meta/lib
+2025-06-09 12:52:09,525 - oe-selftest - INFO -  /data/home/diparmar/workspace/test/yocto-contri/poky/meta-yocto-bsp/lib
+2025-06-09 12:52:09,525 - oe-selftest - INFO -  /data/home/diparmar/workspace/test/yocto-contri/poky/meta-selftest/lib
+2025-06-09 12:52:09,526 - oe-selftest - INFO - Checking base configuration is valid/parsable
+NOTE: Starting bitbake server...
+2025-06-09 12:52:10,881 - oe-selftest - INFO - Adding: "include selftest.inc" in /data/home/diparmar/workspace/test/yocto-contri/poky/build-st/conf/local.conf
+2025-06-09 12:52:10,881 - oe-selftest - INFO - Adding: "include bblayers.inc" in bblayers.conf
+2025-06-09 12:52:10,882 - oe-selftest - INFO - test_split_modules_enabled (kernel_module_split.KernelSplitAutoloadTest)
+2025-06-09 13:08:57,074 - oe-selftest - INFO -  ... ok
+2025-06-09 13:09:16,651 - oe-selftest - INFO - ----------------------------------------------------------------------
+2025-06-09 13:09:16,652 - oe-selftest - INFO - Ran 1 test in 1026.259s
+2025-06-09 13:09:16,652 - oe-selftest - INFO - OK
+2025-06-09 13:09:23,247 - oe-selftest - INFO - RESULTS:
+2025-06-09 13:09:23,248 - oe-selftest - INFO - RESULTS - kernel_module_split.KernelSplitAutoloadTest.test_split_modules_enabled: PASSED (1006.23s)
+2025-06-09 13:09:23,285 - oe-selftest - INFO - SUMMARY:
+2025-06-09 13:09:23,285 - oe-selftest - INFO - oe-selftest () - Ran 1 test in 1026.264s
+2025-06-09 13:09:23,285 - oe-selftest - INFO - oe-selftest - OK - All required tests passed (successes=1, skipped=0, failures=0, errors=0)
+
+$ oe-selftest -r kernel_module_split.KernelSplitAutoloadTest.test_split_modules_disabled
+2025-06-09 13:09:43,796 - oe-selftest - INFO - Adding layer libraries:
+2025-06-09 13:09:43,796 - oe-selftest - INFO -  /data/home/diparmar/workspace/test/yocto-contri/poky/meta/lib
+2025-06-09 13:09:43,796 - oe-selftest - INFO -  /data/home/diparmar/workspace/test/yocto-contri/poky/meta-yocto-bsp/lib
+2025-06-09 13:09:43,797 - oe-selftest - INFO -  /data/home/diparmar/workspace/test/yocto-contri/poky/meta-selftest/lib
+2025-06-09 13:09:43,798 - oe-selftest - INFO - Checking base configuration is valid/parsable
+NOTE: Starting bitbake server...
+2025-06-09 13:09:45,073 - oe-selftest - INFO - Adding: "include selftest.inc" in /data/home/diparmar/workspace/test/yocto-contri/poky/build-st/conf/local.conf
+2025-06-09 13:09:45,073 - oe-selftest - INFO - Adding: "include bblayers.inc" in bblayers.conf
+2025-06-09 13:09:45,073 - oe-selftest - INFO - test_split_modules_disabled (kernel_module_split.KernelSplitAutoloadTest)
+2025-06-09 13:26:15,628 - oe-selftest - INFO -  ... ok
+2025-06-09 13:26:33,452 - oe-selftest - INFO - ----------------------------------------------------------------------
+2025-06-09 13:26:33,452 - oe-selftest - INFO - Ran 1 test in 1008.795s
+2025-06-09 13:26:33,453 - oe-selftest - INFO - OK
+2025-06-09 13:26:40,253 - oe-selftest - INFO - RESULTS:
+2025-06-09 13:26:40,253 - oe-selftest - INFO - RESULTS - kernel_module_split.KernelSplitAutoloadTest.test_split_modules_disabled: PASSED (990.58s)
+2025-06-09 13:26:40,285 - oe-selftest - INFO - SUMMARY:
+2025-06-09 13:26:40,285 - oe-selftest - INFO - oe-selftest () - Ran 1 test in 1008.798s
+2025-06-09 13:26:40,286 - oe-selftest - INFO - oe-selftest - OK - All required tests passed (successes=1, skipped=0, failures=0, errors=0)
